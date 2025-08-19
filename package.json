@@ -1,0 +1,23 @@
+{
+  "name": "claude-webcam-server",
+  "version": "1.0.0",
+  "description": "Auto-starting HTTPS webcam server for Claude CLI",
+  "main": "webcam_server_https.js",
+  "scripts": {
+    "start": "node webcam_server_https.js",
+    "setup": "powershell -ExecutionPolicy Bypass -File setup.ps1"
+  },
+  "keywords": [
+    "claude",
+    "webcam",
+    "phone-camera",
+    "virtual-camera",
+    "https-server"
+  ],
+  "author": "Claude Assistant",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2"
+  }
+}
